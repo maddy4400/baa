@@ -1,0 +1,400 @@
+body{
+  font-family: 'Roboto', sans-serif;
+}
+.page-title{ 
+  padding: 35px 0;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.page-title.black{
+  background:#2A2A2A;  
+}
+.page-title.orange{
+  background:#E46E58;  
+}
+.page-title h1{
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 0;
+    color: #FFFFFF;
+}
+.d-grid{
+  display: grid;
+  grid-template-columns: 297px auto 297px;
+  grid-template-rows: 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 0px;
+}
+.card{
+  padding: 20px;
+}
+.title-3{
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+}
+p{
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+}
+.btn{
+  border-radius: 5px;  
+  padding: 10px 15px;
+  border:none;
+  font-size: 12px;
+}
+.btn-primary.focus, .btn-primary:focus,
+.btn-primary:not(:disabled):not(.disabled).active:focus, 
+.btn-primary:not(:disabled):not(.disabled):active:focus, 
+.show > .btn-primary.dropdown-toggle:focus{
+  box-shadow:none
+}
+.btn-primary:not(:disabled):not(.disabled).active, 
+.btn-primary:not(:disabled):not(.disabled):active, 
+.show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #E55637;
+  border: none;
+}
+.btn-primary{
+  background: #E55637;
+}
+.btn-primary:hover, .btn-primary:active{
+  background: #2A2A2A;
+  border:none
+}
+.btn-member{
+  max-width:134px
+}
+.left-sidebar .card{
+  min-height: 300px;
+  background: url(../images/looking.svg) no-repeat;
+  background-position: bottom right;
+  background-size: contain;
+}
+.card.subscribe{
+  background: #EEF6FF;
+}
+.btn-info{
+  color: #fff;
+  background-color: #00488E;
+  border: none;
+}
+.btn-info:hover{
+  color: #fff;
+  background-color: #003264;
+  border: none;
+}
+.search-job{
+  margin-top: 20px;
+}
+.search-job label{
+  font-size: 16px;
+  color: #2A2A2A;
+  font-weight: 500;
+}
+::placeholder{
+  font-size: 14px;
+  color: #585858;
+}
+::-moz-placeholder{
+  font-size: 14px;
+  color: #585858;
+}
+.search-job .bootstrap-select .btn{
+  border: 1px solid #ced4da;
+  padding: 8px 10px;
+}
+.search-job .show > .btn-light.dropdown-toggle {
+  border-color: #ced4da !important;
+  outline: none;
+}
+.form-control{
+  border-radius: 0;
+  border-color: #DFDFDF;
+}
+.card-joblist{
+  margin-bottom: 20px;
+}
+.card-joblist h2, .card-jobdetail h2{
+  font-size: 18px;
+  color: #222529;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.card-joblist h4, .card-jobdetail h4{
+  font-size: 14px;
+  color: #222529;
+  font-weight: 500;
+}
+.card-joblist h5, .card-jobdetail h5{
+  font-size: 13px;
+  color: #222529;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+.card-joblist p, .card-jobdetail p{
+  margin-bottom: 0;
+}
+.btn-black-rounded{
+  background: #242424;
+  border-radius: 15px;
+  color: #fff;
+  font-size: 12px;
+  height: 30px;
+  padding: 6px 10px;
+  border: none;
+}
+.btn-black-rounded:hover{
+  background:#E55637;
+  color: #fff;
+}
+hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-top: 1px solid #F2F2F2;
+}
+.desc p{
+  margin-bottom: 15px;
+}
+.desc p:last-of-type{
+  margin-bottom: 0;
+}
+.card-register{
+  background: #F2F2F2;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.card-register h3{
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 18px;
+}
+.card-register label{
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.card-register .form-control{
+  border:none;
+  padding: 10px .75rem;
+}
+.card-register ::placeholder{
+  font-size: 14px;
+  color: #b4b4b4;
+}
+.card-register  ::-moz-placeholder{
+  font-size: 14px;
+  color: #b4b4b4;
+}
+.form-control:focus{
+  box-shadow: none;
+}
+.btn-orange-rounded{
+  background:#E55637;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 30px;
+}
+.btn-orange-rounded:hover{
+  background:#242424;
+  color: #fff;
+}  
+
+
+.dropzone{
+  text-align:center;
+  font-size:18px;
+}
+.glyphicon-download{
+  font-size:1.5em;
+}
+.dropzone{
+  border:none
+}
+.dropzone .dz-message {
+  font-size: 14px;
+  text-align: center;
+  margin: 3em 0;
+}
+footer{
+  background:#363636;
+  padding:30px;
+  margin-top: 100px;
+}
+.footer-part-2 p{
+  font-size: 12px;
+  color: #fff;
+  margin-bottom:0;
+}
+.footer-part-2 p a{
+  font-size: 12px;
+  color: #E55637;
+}
+.footer-part-1{
+  color: #fff;
+  margin-bottom: 40px;
+}
+.footer-part-1 h4{
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.footer-part-1 ul{
+  list-style-type: none;
+  padding-left: 0;
+}
+.footer-part-1 ul li{
+  line-height:20px;
+}
+.footer-part-1 ul li a{
+  font-size: 12px;
+  color: #fff;
+}
+.font-14{
+  font-size: 14px !important;
+}
+
+.social-list li a{
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  background: #E55637;
+  border-radius: 35px;
+  display: inline-block;
+  padding: 6px;
+}
+.social-list li a:hover{ 
+  background: #474747;
+}
+
+.header-part-1{
+  padding:10px 0
+}
+.header-number{
+  font-size: 13px;
+  color: #2A2A2A;
+}
+.header-number:hover{
+  text-decoration: none;
+  color: #E55637;
+}
+.btn-header{
+  font-size: 12px;
+  border-radius: 15px;
+  background: #E55637;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+}
+.btn-header:hover{  
+  background: #2A2A2A;
+  color: #fff; 
+}
+.nav-link{
+  font-size: 12px;
+  color: #333333;
+}
+.nav-link:hover{
+  color: #E55637
+}
+.nav-link {
+  padding: .7rem 1rem;
+}
+.header-job{
+  font-size: 12px;
+  color:#E55637;
+  font-weight: 500;
+}
+.header-job:hover{
+  text-decoration: none;
+  color:#262626;
+}
+.header-job sup{
+  background: #262626;
+  color: #fff;
+  padding:2px 5px;
+  border-radius: 10px;
+  font-size:11px;
+  font-weight: 500;
+}
+.bootstrap-select .btn-light{
+  background: #fff;
+  font-size: 14px;
+  border-radius: 0;
+  color: #585858;
+  padding: 12px;
+}
+.dropdown-toggle::after{
+  border: none;
+  background: url(../images/arrow.svg) no-repeat;
+  width: 13px;
+  height: 7px;
+  margin: 0;
+}
+.dropup .dropdown-toggle::after{
+  border: none;
+  background: url(../images/dropup-arrow.png) no-repeat;
+  width: 13px;
+  height: 7px;
+  margin: 0;
+}
+.btn-light:not(:disabled):not(.disabled).active, 
+.btn-light:not(:disabled):not(.disabled):active, 
+.show > .btn-light.dropdown-toggle {
+  color: #212529;
+  background-color: #fff;
+  border-color: #fff;
+}
+.dropdown-menu{
+  padding: 0;
+  border-radius: 0;
+}
+.dropdown-item.active, .dropdown-item:active { 
+  background-color: #212529;
+}
+.dropdown-menu span{
+  font-size: 14px;
+}
+.dropdown-item {
+  padding: .25rem 15px;
+}
+.page-link {
+  border-radius: 30px;
+  margin: 2px;
+  height: 30px;
+  padding: 7px;
+  min-width: 30px;
+  text-align: center;
+  background: #E9E9E9;
+  color: #545454;
+  font-size: 12px;
+}
+.page-item:last-child .page-link, .page-item:first-child .page-link {
+  border-radius: 30px !important;
+  padding: 6px 12px;
+}
+.page-link:hover{
+  color: #545454;
+}
+.page-item.active .page-link {
+  z-index: 1;
+  color: #fff;
+  background-color: #E55637;
+  border : none;
+}
+@media(max-width:767px){
+  .d-grid {
+    grid-template-columns: auto;
+  }
+  .left-sidebar, .job-detail{
+    margin-bottom: 20px;
+  }
+}
+@media(min-width:767px) and (max-width:992px){
+  .d-grid {
+    grid-template-columns: auto;
+  }
+  .left-sidebar, .job-detail{
+    margin-bottom: 20px;
+  }
+}
